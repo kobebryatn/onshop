@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*页面头部*/
+header{
+    border-bottom: 1px solid gainsboro;
+}
+.type-page{
+    width: 1200px;
+    margin: 0 auto;
+}
+.type-page img{
+    margin: 10px 0;
+}
+.help ul{
+    list-style: none;
+    float: right;
+    margin-top: -80px;
+}
+.help ul li{
+    float: left;
+    padding: 0 10px;
+}
+.clear-fix  {
+    clear: both;
+}
+.help>ul>li:nth-child(1){
+    font-size: 13px;
+    color: grey;
+    line-height: 27px;
+}
+.help>ul>li:nth-child(2){
+    border: 1px solid darkgray;
+    width: 100px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    font-size: 14px;
+}
+.help ul li .right-map{
+    display: inline-block;
+    width: 18px;
+    height: 15px;
+    background: url("oneShop/images/turnb.png") no-repeat 5px 2px;
+}
+.help ul li .left-map{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("oneShop/images/runbun.png") no-repeat -2px 5px;
+}
+.help ul li span a{
+    text-decoration: none;
+}
+.help ul li span a:hover{
+    color: red;
+}
+/*内容部分左边图片*/
+section{
+    background-color: #FCFCFC;
+}
+.left {
+    /* position: absolute; */
+    width: 980px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+/*内容部分右边图片*/
+body{
+position: relative;
+}
+.right{
+    position: absolute;
+    right: 200px;
+    float: right;
+    margin-top: 20px;
+}
+.right .land{
+    width: 330px;
+    height: 375px;
+}
+.reg h3{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+}
+.reg a{
+    text-decoration: none;
+    float: right;
+    font-size: 13px;
+}
+.reg a:hover{
+    color: red;
+}
+.id{
+    width: 330px;
+    height: 54px;
+}
+.id span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+}
+.id{
+    width: 326px;
+    height: 50px;
+    background: url("oneShop/images/userHead.png") no-repeat 20px center;
+    text-indent: 60px;
+    margin-top: 10px;
+    box-shadow: none;
+    background-color: #fff;
+    
+    border: 1px solid #DEDEDE;
+}
+.mi-ma{
+    width: 326px;
+    height: 50px;
+    background: url("oneShop/images/lock.png") no-repeat 20px center;
+    text-indent: 60px;
+    margin-top: 10px;
+    box-shadow: none;
+    background-color: #fff;
+    border: 1px solid #DEDEDE;
+}
+.deng-lu{
+    margin-top: 20px;
+}
+.deng-lu .for-get{
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+.deng-lu .no-move{
+    font-size: 12px;
+    text-decoration: none;
+    color: #CCCCCC;
+}
+.but-deng button{
+    width: 326px;
+    height: 50px;
+    background-color: #ff3c3c;
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+    border:  none;
+}
+form p{
+    font-size: 13px;
+    color: #666666;
+    margin-top: 20px;
+}
+.cooper{
+    margin-top: 20px;
+}
+.cooper .qq{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url("oneShop/images/qqf.png") no-repeat;
+    background-size: 100% 100%;
+}
+.cooper .wb{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url("oneShop/images/wbf.png") no-repeat;
+    background-size: 100% 100%;
+}
+.cooper .zhif{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url("oneShop/images/zhif.png") no-repeat;
+    background-size: 100% 100%;
+}
+.cooper .wx{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url("oneShop/images/wxf.png") no-repeat;
+    background-size: 100% 100%;
+}
+.cooper .qq:hover{
+    width: 35px;
+    height: 35px;
+    background: url("oneShop/images/qqt.png") no-repeat;
+    background-size: 100% 100%;
+}
+.cooper .wb:hover{
+    width: 35px;
+    height: 35px;
+    background: url("oneShop/images/wbt.png") no-repeat;
+    background-size: 100% 100%;
+}
+.cooper .zhif:hover{
+    width: 35px;
+    height: 35px;
+    background: url("oneShop/images/zhit.png") no-repeat;
+    background-size: 100% 100%;
+}
+.cooper .wx:hover{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url("oneShop/images/wxt.png") no-repeat;
+    background-size: 100% 100%;
+}
+.cooper span{
+    font-size: 12px;
+    float: right;
+    margin-top: 10px;
+}
+.cooper span img{
+    width: 18px;
+    height: 14px;
+    transform: translateY(3px);
+}
+footer{
+    text-align: center;
+    /* transform: translateY(-250px); */
+    font-size: 13px;
+}
+footer p{
+    margin-top: 10px;
+}
